@@ -40,6 +40,10 @@ h1, h2, h3 {
 .navbar-brand {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
+  text-shadow: 2px 2px #63666A;
+  &:focus {
+    text-shadow: 1px 1px #63666A;
+  }
 }
 
 .navbar-default .navbar-brand,
