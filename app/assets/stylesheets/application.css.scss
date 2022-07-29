@@ -27,26 +27,23 @@ h1, h2, h3 {
 //Background Gradient
 .navbar, .home-callout{
     // Gradient provided by https://uigradients.com/
-    background: #3494E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-//Nav Styles
+// Nav Styles
 .navbar {
-    border: none;
+  border: none;
 }
-
-.navbar-default .navbar-brand {
-    color: white;
-}
-
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
+  color: white;
+  &:hover {
     color: white;
-    &:hover{
-        color: white;
-        opacity: 0.65;
-    }
+    opacity: 0.75;
+  }
 }
 
 //Homepage Styles

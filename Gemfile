@@ -29,7 +29,7 @@ gem 'jbuilder', '2.5.0'
 #Use Twitter Bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
 
-#Use FontAwesome sass gem for adding icons
+#Use FontAwesome RAILS gem for adding icons
 gem "font-awesome-rails"
 
 group :development, :test do
